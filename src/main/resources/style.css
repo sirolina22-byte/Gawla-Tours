@@ -1,0 +1,73 @@
+.root-pane {
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+/* كلمة Welcome */
+.welcome-text {
+    -fx-font-size: 35px; 
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* GAWLA Tours العنوان الكبير */
+.project-title {
+    -fx-font-size: 55px; 
+    -fx-font-weight: 900;
+    -fx-text-fill: #FFD700; /* الأصفر الذهبي */
+    -fx-font-family: "Arial Black";
+    -fx-padding: 0 0 60 0; 
+}
+
+/* زرار الـ Login الأصفر */
+.primary-button {
+    -fx-background-color: #FFD700;
+    -fx-text-fill: black;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 35;
+    -fx-padding: 12 50;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #E6C200;
+}
+
+/* الجملة اللي فوق الساين أب */
+.signup-hint {
+    -fx-text-fill: white;
+    -fx-font-size: 19px;
+    -fx-font-weight: 600;
+    -fx-padding: 40 0 10 0; 
+}
+
+/* زرار الـ Sign Up الأبيض */
+.secondary-button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 35;
+    -fx-padding: 10 45;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #F2F2F2;
+}
+
+/* ستايلات إضافية لصفحة اللوجين والساين أب (الكروت البيضاء) */
+.login-card {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.text-field-custom {
+    -fx-background-radius: 5;
+    -fx-border-color: #DDE6ED;
+    -fx-pref-height: 40;
+}

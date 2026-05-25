@@ -1,0 +1,45 @@
+.dashboard-root {
+    -fx-background-color: #F8FAFC; 
+    -fx-background-image: none; 
+}
+
+.sidebar {
+    /* الأزرق الغامق اللي في صورتك تقريباً #1a1e36 */
+    -fx-background-color: #1a1e36; 
+    
+    /* --- السطرين السحريين اللي هيحلوا المشكلة --- */
+    /* بنجبر الارتفاع يكون لا نهائي لآخر الشاشة */
+    -fx-max-height: Double MAX_VALUE; 
+    /* وبنقول للـ Parent إنه يملأ الارتفاع المتاح */
+    -fx-pref-height: 10000px; /* رقم كبير جداً لضمان الامتداد */
+    
+    /* بقية الستايل بتاعك (Paddings, Borders...) */
+    -fx-padding: 20px;
+    -fx-border-color: transparent;
+}
+.logo-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 30 0;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #A0AEC0;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 12 20;
+}
+
+.nav-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: white;
+}
+
+.nav-button-active {
+    -fx-background-color: #4A90E2; 
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
